@@ -1,0 +1,33 @@
+﻿<dialog id="Frame2SymbolDialog" title="Frame2Symbol" buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="シンボル名: " align="right" />
+				<textbox id="newsymbolName" value="シンボル 1" tabindex="1" />
+			</row>
+			<row>
+				<label value="タイプ: " align="right" />
+				<menulist id="newsymbolType">
+					<menupop>
+						<menuitem label="グラフィック" value="graphic" />
+						<menuitem label="ムービークリップ" value="movie clip" />
+					</menupop>
+				</menulist>
+			</row>
+		</rows>
+	</grid>
+	<hbox>
+		<checkbox id="notLoopFlag" label="グラフィックなら一回再生にしとく" checked="true" />
+	</hbox>
+	<hbox>
+		<checkbox id="deleteFlag" label="コピー元のレイヤーを削除する" checked="true" />
+	</hbox>
+	<hbox>
+		<checkbox id="cutFlag" label="長さに合わせて空白キーフレームを入れる" checked="true" />
+	</hbox>
+</dialog>
+
