@@ -2,7 +2,7 @@
 //
 // yama_ko
 // http://www.yama-ko.net/
-// ショートカットctrl+alt+F8あたり。
+// ショートカットctrl+alt+F8あたりオススメ。
 
 // ダイアログを開く
 var Frame2SymbolDialog = fl.getDocumentDOM().xmlPanel(fl.configURI+"Commands/Frame2Symbol.xml");
